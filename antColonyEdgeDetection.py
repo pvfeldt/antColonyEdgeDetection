@@ -230,7 +230,7 @@ rho=0.3
 #记录算法开始时间
 beginTime=time.time()
 #灰度化图像
-imageGray=preProcessImage("catx.jpg")
+imageGray=preProcessImage("cat.jpg")
 #初始化信息，选50只蚂蚁组成连续路径
 pheromone,antRoute,startingPoint=initialize(100,imageGray)
 #开始2000次迭代
